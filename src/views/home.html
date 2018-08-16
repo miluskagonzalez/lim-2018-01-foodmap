@@ -13,7 +13,7 @@
     <title>Foodmap</title>
   </head>
   <body>
-    <div class="navbar-fixed nav-custom-height">
+    <header class="navbar-fixed nav-custom-height">
       <nav class="nav-custom-height">
         <div class="nav-wrapper white nav-custom-height">
           <a href="home.html">
@@ -21,19 +21,26 @@
           </a>
         </div>
       </nav>
-    </div>
+    </header>
     <main>
-      <section class="section container nav-wrapper">
-        <form>
-          <div class="input-field">
-            <input id="search" type="search" required>
-            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
-          </div>
-        </form>
-      </section>
+      <section class="background-img">
+        <div class="section container">
+          
+        </div>
+        <div class="section container nav-wrapper">
+          <form class="search-form">
+            <div class="input-field">
+              <input class="white-text" id="search" type="search" required>
+              <label class="label-icon" for="search">
+                <i class="material-icons white-text">search</i>
+              </label>
+            </div>
+          </form>
+        </div>      
+      </section>    
     </main>
     <!--Materialize JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="../js/materialize.js"></script>
   </body>
 </html>

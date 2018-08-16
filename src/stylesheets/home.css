@@ -15,8 +15,23 @@ body {
   height: 80px!important;
   line-height: 100px;
 }
+
 .logo-custom-height {
   height: 60px;
   margin-top: 10px;
 }
 
+.background-img {
+  background-image: url(../assets/images/food-eating-potatoes-beer-8313.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 150px;
+}
+
+.search-form {
+  border: 1px solid white;
+}
+
+.input-field input[type=search]:focus:not(.browser-default) {
+  background-color: transparent;
+}
