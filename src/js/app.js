@@ -1,3 +1,2 @@
-setTimeout(() => {
-  window.location.href = 'views/home.html'
-}, 2000);
+const redirect = () => window.location.href = 'views/home.html';
+setTimeout(redirect, 2000);

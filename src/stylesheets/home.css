@@ -1,9 +1,22 @@
+body {
+  animation: appear 1s ease-in 0s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .nav-custom-height {
   height: 80px!important;
   line-height: 100px;
 }
 .logo-custom-height {
-  height: 70px;
-  margin-top: 6px;
+  height: 60px;
+  margin-top: 10px;
 }
 

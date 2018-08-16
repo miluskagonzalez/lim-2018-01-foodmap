@@ -5,7 +5,7 @@ body {
 .colorful-background {
   height: 100vh;
   width: 100%;
-  animation: colorize 2s ease-in-out 0s 1;
+  animation: colorize 1s ease-in-out 0s 1;
 }
 
 .logo-wrapper {
@@ -20,10 +20,10 @@ body {
   0% {
     background-color: #FF8A7A;
   }
-  30% {
+  50% {
     background-color: #92DAC9;
   }
-  60% {
+  100% {
     background-color: #FFFFFF;
   }
 }
@@ -32,7 +32,7 @@ body {
   0%, 30% {
     opacity: 0;
   }
-  90%, 100% {
+  100% {
     opacity: 1;
   }
 }
