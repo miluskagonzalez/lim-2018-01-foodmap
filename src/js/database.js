@@ -81,5 +81,20 @@ const restaurants = [
       'pulpo al olivo', 'conchas a la chorrillana', 'gnnochis', 'arroz chaufa', 'tiradito'
     ]
   },
+  {
+    id: 'brrtb',
+    name: 'Burrito Bar',
+    picture: '../assets/images/brrtb-pic.jpg',
+    description: 'Comida peruana',
+    local: { 
+      address: 'Av. Miguel Grau 113, Barranco', 
+      map: '../assets/images/brrtb-map.png'
+    },
+    tags: [ 
+      'burritos', 'almuerzo', 'cena', 'comida rápida', 'comida centroamericana', 'comida mexicana', 'comida latina',
+      'comida vegana', 'apto para vegetarianos', 'opciones veganas', 'comida vegetariana', 'bebidas', 'quesadillas',
+      'margaritas', 'nachos con guacamole', 'bloody mary', 'frejol', 'tacos', 'ensaldas', 'pollo', 'carne'
+    ]
+  },
 ]
   
