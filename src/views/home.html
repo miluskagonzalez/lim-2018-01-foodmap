@@ -25,22 +25,34 @@
     <main>
       <section class="background-img">
         <div class="section container">
-          
-        </div>
-        <div class="section container nav-wrapper">
-          <form class="search-form">
-            <div class="input-field">
-              <input class="white-text" id="search" type="search" required>
-              <label class="label-icon" for="search">
+          <div class="section container">
+            <p class="bold-text white-text center-align">ENCUENTRA EL RESTAURANTE PERFECTO CERCA DE TI</p>
+          </div>
+          <div class="section container nav-wrapper">
+            <form id="restaurant-search" class="search-form" autocomplete="off">
+              <div class="input-field">
+                <input class="white-text"  type="search">
+                <label class="label-icon" for=" restaurant-search">
                 <i class="material-icons white-text">search</i>
-              </label>
-            </div>
-          </form>
+                </label>
+              </div>
+            </form>
+          </div>
         </div>      
-      </section>    
+      </section>  
+      <section class="section container row" id="restaurant-section"></section>
+      <section>
+        <div id="restaurant-modal" class="modal">
+        </div>
+      </section>
     </main>
     <!--Materialize JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="../js/materialize.js"></script>
+    <!--Data-->
+    <script src="../js/database.js"></script>
+    <script src="../js/data.js"></script>
+    <!--DOM-->
+    <script src="../js/home.js"></script>
   </body>
 </html>

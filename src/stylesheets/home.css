@@ -11,6 +11,10 @@ body {
   }
 }
 
+.input-field input[type=search] {
+  background: none !important;
+}
+
 .nav-custom-height {
   height: 80px!important;
   line-height: 100px;
@@ -25,13 +29,46 @@ body {
   background-image: url(../assets/images/food-eating-potatoes-beer-8313.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 150px;
+  min-height: 200px;
+  box-shadow: inset 0 0 400px rgb(34, 0, 9);
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.heading-font-size {
+  font-size: 16px;
 }
 
 .search-form {
   border: 1px solid white;
 }
 
-.input-field input[type=search]:focus:not(.browser-default) {
-  background-color: transparent;
+.no-bottom-margin {
+  margin-bottom: 0px !important;
+}
+
+.tea-rose {
+  background-color: #FF8A7A;
+}
+
+.tea-rose-text {
+  color: #FF8A7A;
+}
+
+.middle-blue-green-text {
+  color: #92DAC9;
+}
+
+@media (min-width: 601px) {
+  .background-img {
+    min-height: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .background-img {
+    min-height: 250px;
+  }
 }
