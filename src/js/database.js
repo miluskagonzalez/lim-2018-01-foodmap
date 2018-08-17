@@ -49,6 +49,23 @@ const restaurants = [
     ]
   },
   {
+    id: 'lstpg',
+    name: 'La 73 Paradero Gourmet',
+    picture: '../assets/images/lstpg-pic.jpg',
+    description: 'Comida local y fusión',
+    local: { 
+      address: 'Av. El Sol Oeste 175, Barranco', 
+      map: '../assets/images/lstpg-map.png'
+    },
+    tags: [ 
+      'comida peruana', 'comida latina', 'comida contemporánea', 'opciones veganas', 'opciones sin gluten', 'cafe',
+      'café', 'bar','comida vegana', 'apto para vegetarianos', 'comida fusión', 'comida fusion', 'almuerzo', 'cena', 
+      'brunch', 'comida para llevar', 'pie de limón', 'huatia de carrilleras', 'carne de res', 'creme brulee', 'atún',
+      'atun', 'tartar', 'alitas capón', 'salsa oriental', 'yakitori', 'salmón emparillado en salsa nikkei', 'chaufa',
+      'comida nikkei', 'chifa', 'langostinos', 'cerdo', 'chicha', 'chilcanos','tartar de salmón', 'pisco sour' 
+    ]
+  },
+  {
     id: 'cntrn',
     name: 'Canta Rana',
     picture: '../assets/images/cntrn-pic.jpg',

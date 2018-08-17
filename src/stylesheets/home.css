@@ -50,11 +50,11 @@ body {
 }
 
 .tea-rose {
-  background-color: #FF8A7A;
+  background-color: #FF8A7A !important;
 }
 
 .tea-rose-text {
-  color: #FF8A7A;
+  color: #FF8A7A !important;
 }
 
 .middle-blue-green-text {
